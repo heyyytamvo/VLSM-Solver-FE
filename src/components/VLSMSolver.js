@@ -20,7 +20,7 @@ const VLSMSolver = () => {
     e.preventDefault();
   
     try {
-      const response = await fetch('http://localhost:5003/api/vlsm/solve', {
+      const response = await fetch('http://apivlsm.heyyytamvo.io.vn/api/vlsm/solve', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
